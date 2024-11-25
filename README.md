@@ -23,7 +23,15 @@ ou apenas ultilize na vercel: https://api-de-teste-frontend.vercel.app/
 
 ## Endpoints da API
 
-Os endpoints da API serão documentados aqui conforme forem implementados.
+```
+
+router.get('/api/items', UserController.getAll)
+router.post('/api/items', UserController.create)
+router.put('/api/items/:id', UserController.update)
+router.delete('/api/items/:id', UserController.delete)
+
+
+```
 
 ## Contribuição
 
